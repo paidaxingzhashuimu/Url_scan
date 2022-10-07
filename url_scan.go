@@ -36,7 +36,7 @@ func getpath() []string {
 
 func jiaxin_gogogo(url string, file *os.File) {
 	defer func() {
-		err_logs, _ := os.OpenFile("err_logs.txt", os.O_APPEND|os.O_RDWR, 0644)
+		err_logs, _ := os.OpenFile("err_logs.txt", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
 		err := recover()
 		if err != nil {
 			fmt.Println(url + "  [*]格式存在问题，请检查")
@@ -69,7 +69,7 @@ func jiaxin_gogogo(url string, file *os.File) {
 
 func main() {
 
-	scan_result, err := os.OpenFile("results.txt", os.O_APPEND|os.O_RDWR, 0644)
+	scan_result, err := os.OpenFile("results.txt", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
 	if err != nil {
 		fmt.Println("输出结果出现意外")
 	}
