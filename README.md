@@ -5,9 +5,7 @@
 
 2.使用方法：
 
-（1）![图片](https://user-images.githubusercontent.com/103090032/194456641-1bc0a455-0a1b-47de-a302-99474c70369c.png)
-
-（2）-f 参数选取需要扫描的url文件：
+-f 参数选取需要扫描的url文件：
 
 ![图片](https://user-images.githubusercontent.com/103090032/194456650-3cfaaab5-1102-441a-a93b-c8051bb50001.png)
 
