@@ -7,13 +7,14 @@
 
 -f 参数选取需要扫描的url文件：
 
-![图片](https://user-images.githubusercontent.com/103090032/194456650-3cfaaab5-1102-441a-a93b-c8051bb50001.png)
+![图片](https://user-images.githubusercontent.com/103090032/194490441-3e7d6771-8b97-4fd8-abbf-16ba4eabe83e.png)
 
 （3）等待结果：
 
 
-![图片](https://user-images.githubusercontent.com/103090032/194456658-5825705e-f00a-44d8-92a4-a2080c328a95.png)
+![图片](https://user-images.githubusercontent.com/103090032/194490946-701f29df-9a2c-4dc1-b65a-c35be9036b1f.png)
+
 
 （4）输出结果存放在，results.txt中。
 
-![图片](https://user-images.githubusercontent.com/103090032/194456665-857d0257-e3e5-42cc-887a-a2f6b6303385.png)
+![图片](https://user-images.githubusercontent.com/103090032/194491187-f4be5a69-24a6-4f16-94af-7e46b45bfd90.png)
